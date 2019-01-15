@@ -1,7 +1,6 @@
 const expect = require('chai').expect;
-function Q() {
-  this.enq = () => {};
-}
+const Q = require('./Q');
+
 describe('Q', () => {
   it('exists', () => {
     expect(Q).to.be.ok;
